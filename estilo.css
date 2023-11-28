@@ -1,0 +1,138 @@
+body {
+margin: 0;
+    background-color: #6ed45e;
+    font-family: 'Poppins', sans-serif;
+}
+
+#capa {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #64CA55;
+    background-position: right;
+    color: aliceblue;
+    display: flex;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    color: rgb(9, 49, 49);
+    text-align: center;
+}
+
+.subtitulo{
+    text-align: left;
+}
+
+
+#projeto {
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    margin: 0;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: rgb(59, 194, 77);
+    border-radius: 10px;
+    border: solid 3px #83aa7d;
+    text-decoration: none;
+}
+
+#botão {
+    display: flex;
+    align-items: 50%;
+    gap: 90px;
+    width: 100%;
+}
+
+#esq {
+    display: flex;
+
+}
+
+#imagem {
+
+    width: 800px;
+}
+
+#esq {
+    width: 100vw;
+    height: 100%;
+}
+
+.esquerda {
+padding: 80px;
+align-items: center;
+justify-content: center;
+display: flex;
+    width: 40%;
+}
+
+.direita {
+    width: 60%;
+}
+
+.direita img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+#introdução {
+    font-size: 30px;
+
+}
+
+#projeto {
+    font-size: 30px;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.flex{
+display: flex;
+align-items: center;
+gap: 40px;
+}
+.item{
+    width: 50%;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+
+    #capa {
+        height: 70vh;
+    }
+
+    #projeto {
+        padding: 40px 0;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 100%;
+    }
+}
